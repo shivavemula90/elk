@@ -43,6 +43,6 @@ systemctl stop firewalld
 # Update hosts file
 echo "[TASK 6] Update /etc/hosts file"
 cat >>/etc/hosts<<EOF
-172.42.42.10 server.example.com server
-172.42.42.20 client.example.com client
+192.168.33.11 server
+192.168.33.12 client
 EOF
